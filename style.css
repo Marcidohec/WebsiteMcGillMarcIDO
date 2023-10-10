@@ -1,0 +1,271 @@
+
+
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9, .mySlides10, .mySlides11, .mySlides12{display: none}
+
+
+body {
+	
+	margin: 0 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+header{
+     margin: 0 0;
+     width: 100vw;
+     height: 100vh ;
+     font-family: Courier, monospace;
+    background: url(ImagesMtl/Old-Montreal-At-Christmas.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    clip-path: polygon(0 0,100% 0,100% 80%,50% 100%, 0 80% );
+    position: relative; 
+
+
+
+}
+
+header .text-container{
+	border: 15px whitesmoke;
+	padding: 30px;
+	background-color: rgb(192,192,192, 0.9);
+	border-radius: 15px;
+	display: block;
+	width: 70%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	color: darkred;
+		
+	clip-path: polygon(0 0,100% 0,100% 80%,50% 100%, 0 80% );
+    
+
+
+}
+
+
+h1{
+	text-decoration: underline ;
+	text-underline-offset: 0.1em;
+	font-weight: 600;
+	font-size: 4em;
+	font-family: garamond, serif;
+	margin: 0;
+	color: rgb(139, 0, 0,);
+	text-decoration-color: white;
+	text-underline-offset: ;
+	text-decoration-thickness: 0.06em;
+	-webkit-text-stroke: 0.3px white;
+}
+
+
+
+
+.categories{
+	border: 20px;
+	background-color: darkred;
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  border: 5px solid #c21414;
+  border-radius: 7px;
+  
+}
+
+.left-panel {
+	margin: 15px 50px 15px 15px;
+	display: inline-block;
+	float: left;
+	width: 50%;
+	
+
+	
+}
+
+.right-panel {
+ margin: 300px 50px 15px 15px;
+ display: inline-block;
+ 
+
+ 
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.intro {
+	padding: 15px;
+	margin: 75px 30px 75px 30px;
+   font-family: Goudy Old Style, serif;
+   font-weight: bold;
+   font-size: 20px;
+   font-style: italic;
+
+
+
+}
+
+
+
+.summary{
+   padding: 15px;
+	margin: 15px 700px 50px 50px;
+	
+    border-radius: 8px;
+
+}
+
+.left-writing{
+	margin: 15px 30px 15px 30px;
+	float: left;
+	font-size: 20px;
+   
+}
+
+
+.right-writing{
+   margin: 15px 30px 15px 30px;
+   float: right;
+   text-align: right;
+
+
+
+}
+
+ul {
+	font-size: 55px;
+}
+
+.slides-back{
+	    background: border-box;
+    border: 5px outset #f0e7e0;
+    padding: 10px;
+        margin: 10px 10px;
+        border-radius: 7px;
+        
+        position: relative;
+
+
+}
+
+.whole-background {
+	background-image: url("ImagesMtl/v915-wit-008-a.jpg");
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: saturate(80%);
+
+}
+
+.subtitles {
+	text-decoration: underline;
+	position: relative;
+
+
+
+}
+
+.titles-images { 
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 25px;
+    text-decoration: underline;
+
+ }
+
+.titles-slides {
+	text-align: center;
+	font-style: italic;
+	position: relative;
+	font-size:  60px ;
+	
+	margin: 50px;
+	
+
+}
+
+.button {
+   background-color: darkred;
+    color: white;
+    padding: 12px 121px;
+    text-align: center;
+    font-size: 28px;
+    margin: 1px -14px;
+    cursor: pointer;
+    font-style: italic;
+    font-family: Goudy Old Style, serif;
+    text-decoration: none;
+}
+
+.summ-titles {
+  text-align: left;
+  font-style: italic;
+  font-size: 55px;
+  font-weight: 300;
+  margin: 10px 10px 10px 10px;
+
+
+}
+
+
+.grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.1); 
+}
+
+.intro-txt { 
+    text-align: center;
+ }
+
+.prota{
+	margin: 15px 150px 15px 150px;
+}
+
+.fs{
+
+}
+
+.center-panel{
+	margin: 15px 50px 15px 390px;
+ display: inline-block;
+
+}
